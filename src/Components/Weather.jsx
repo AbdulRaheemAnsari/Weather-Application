@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { FiSearch } from "react-icons/fi";
 import cloud_icon from '../assets/cloud.png';
 import wind_icon from '../assets/wind.png';
