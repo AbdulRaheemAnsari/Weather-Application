@@ -7,6 +7,7 @@ import rain_icon from '../assets/rain.png';
 import drizzle_icon from '../assets/drizzle.png';
 import clear_icon from '../assets/clear.png';
 import humidity_icon from '../assets/humidity.png';
+import './weather.css';
 
 const Weather = () => {
 
@@ -73,7 +74,7 @@ const Weather = () => {
     }
 
     return (
-        <div className='w-[370px] h-[500px] rounded-md bg-gradient-to-r from-[#89beb0] to-[#268183]'>
+        <div className='main w-[370px] h-[500px] rounded-md bg-gradient-to-r from-[#89beb0] to-[#268183]'>
             <div className="bar w-full h-[50px] flex justify-center px-6 mt-6 gap-2">
                 <input className='input w-full rounded-full pl-5 py-0 outline-none border-none text-ms' type="text" placeholder='Search Here!' />
                 <button onClick={() => { searchfunction() }} className='bg-white px-4 rounded-full text-gray-600'><FiSearch /></button>
@@ -103,7 +104,6 @@ const Weather = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
