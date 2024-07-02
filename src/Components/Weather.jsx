@@ -74,7 +74,7 @@ const Weather = () => {
     }
 
     return (
-        <div className='main w-[370px] h-[500px] rounded-md bg-gradient-to-r from-[#89beb0] to-[#268183]'>
+        <div className='mains w-[370px] h-[500px] rounded-md bg-gradient-to-r from-[#89beb0] to-[#268183]'>
             <div className="bar w-full h-[50px] flex justify-center px-6 mt-6 gap-2">
                 <input className='input w-full rounded-full pl-5 py-0 outline-none border-none text-ms' type="text" placeholder='Search Here!' />
                 <button onClick={() => { searchfunction() }} className='bg-white px-4 rounded-full text-gray-600'><FiSearch /></button>

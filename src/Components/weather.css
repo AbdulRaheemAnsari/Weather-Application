@@ -1,13 +1,13 @@
 
 
 @media (max-width: 450px){
-    .main{
+    .mains{
         width: 330px;
     }
 }
 
 @media (max-width: 375px){
-    .main{
+    .mains{
         width: 300px;
     }
 
@@ -23,7 +23,7 @@
 }
 
 @media (max-width: 335px){
-    .main{
+    .mains{
         width: 280px;
         height: 450px;
     }
@@ -40,7 +40,7 @@
 }
 
 @media (max-width: 310px){
-    .main{
+    .mains{
         width: 250px;
         height: 400px;
     }
@@ -70,7 +70,7 @@
 }
 
 @media (max-width: 275px){
-    .main{
+    .mains{
         width: 220px;
         height: 350px;
     }
@@ -103,7 +103,7 @@
 }
 
 @media (max-width: 250px){
-    .main{
+    .mains{
         width: 200px;
         height: 320px;
     }
